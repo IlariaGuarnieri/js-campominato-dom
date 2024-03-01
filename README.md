@@ -7,3 +7,4 @@ Al termine della partita il software deve comunicare il punteggio, cioè il nume
 # sviluppo
 1. genero un numero casuale da 1 a 100 (math random)
 2. controllo se il mio numero esiste gia nell'array (con if)(includes)
+3. se non esiste lo salvo

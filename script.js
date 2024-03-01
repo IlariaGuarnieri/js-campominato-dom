@@ -54,7 +54,7 @@ function getOddEvenClass(n){
 }
 
 const bombe = []
-while(bombe.length === 16){
+while(bombe.length < 16){
   const numeroRandom = Math.ceil(Math.random()*100);
   if(!bombe.includes(numeroRandom)){
     bombe.push(numeroRandom)
