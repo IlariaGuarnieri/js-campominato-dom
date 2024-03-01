@@ -1,9 +1,6 @@
 
 const gridContainer = document.querySelector('.grid-container')
 
-const totBomb = 16;
-
-const myBomb = [];
 
 reset();
 
@@ -56,15 +53,36 @@ function getOddEvenClass(n){
   return 'odd';
 }
 
-function nBomb(variDiff) {
-
-  const numBom - [];
-  let contatoreSquare;
-
-  for (let i = 1; i <= totBomb; i++){
-
+const bombe = []
+while(bombe.length === 16){
+  const numeroRandom = Math.ceil(Math.random()*100);
+  if(!bombe.includes(numeroRandom)){
+    bombe.push(numeroRandom)
+    console.log(`La casella ${numeroRandom} è una bomba`)
+    // aggiungo il numero solo se non è gia presente
+  }else{
+    
   }
+
+// se non esiste lo salvo
 }
+
+
+
+
+// console.log(bombe.length)
+
+
+
+// function nBomb(variDiff) {
+
+//   const numBom - [];
+//   let contatoreSquare;
+
+//   for (let i = 1; i <= totBomb; i++){
+
+//   }
+// }
 
 
 

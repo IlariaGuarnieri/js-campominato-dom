@@ -5,3 +5,5 @@ La partita termina quando il giocatore clicca su una bomba o quando raggiunge il
 Al termine della partita il software deve comunicare il punteggio, cioè il numero di volte che l’utente ha cliccato su una cella che non era una bomba.
 ===
 # sviluppo
+1. genero un numero casuale da 1 a 100 (math random)
+2. controllo se il mio numero esiste gia nell'array (con if)(includes)
